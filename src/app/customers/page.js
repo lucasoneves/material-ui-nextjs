@@ -1,10 +1,13 @@
 "use client"
 
-import Container from "@mui/material"
 import Customers from "@/components/Customers"
+import { Suspense } from "react"
+import Loading from "@/components/Loading"
 
 export default function CustomersPage() {
   return (
-    <Customers />
+    <Suspense fallback={<Loading />}>
+      <Customers />
+    </Suspense>
   )
 }

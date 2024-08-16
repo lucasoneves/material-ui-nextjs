@@ -4,10 +4,6 @@ import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-
-import Chart from '../Chart/Chart';
-import Deposits from '../Deposits/Deposits';
-import Orders from '../Orders/Orders';
 import CustomersTable from './CustomersTable';
 
 
